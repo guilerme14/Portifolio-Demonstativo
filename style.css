@@ -11,12 +11,19 @@ body{
     grid-template-rows: 80px 1fr 90px;
     grid-template-columns: 1fr 250px;
 }
+header{
+    display: flex;
+       grid-area: header;
+    
+   
+}
 .nav {
     background-color: #b9522d;
     height: 30px;
     list-style: none;
-    padding: 0;
-    width: 210px;
+    padding: 0; 
+    width: 100vw;
+   
 }
 .nav li{
     float: left;
@@ -24,7 +31,11 @@ body{
     height: 30px;
     line-height: 30px;
     text-align: center;
-    width: 70px;
+    width: 260px;
+    
+}
+ul .nav li{
+    justify-content: center;    
 }
 .nav a{
     color: white;
