@@ -5,17 +5,10 @@ body{
     display: grid;
     grid-template-areas:
         "header header"
-        "aside main "
-        "footer footer";
+        "main main";
         
     grid-template-rows: 80px 1fr 90px;
     grid-template-columns: 1fr 250px;
-}
-header{
-    display: flex;
-       grid-area: header;
-    
-   
 }
 .nav {
     background-color: #b9522d;
